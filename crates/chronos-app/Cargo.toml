@@ -1,0 +1,15 @@
+[package]
+name = "chronos-app"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Team <engineering@novaos.org>"]
+description = "Autonomous CLI driver, terminal UI, and self-test qualification runner for Chronos Clock"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "chronos"
+path = "src/main.rs"
+
+[dependencies]
+chronos-core = { path = "../chronos-core" }
+chronos-ui = { path = "../chronos-ui" }

@@ -1,0 +1,9 @@
+[package]
+name = "chronos-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Team <engineering@novaos.org>"]
+description = "Core time calculation, world clock, alarm scheduler, stopwatch and timer engine for Chronos Clock"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
